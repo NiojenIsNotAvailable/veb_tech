@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Teacher Form</title>
+</head>
+<body>
+    <h2>Додайте форму викладача</h2>
+    <form action="#" method="POST">
+        <label for="fullname">Повне ім'я:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="gender">Стать:</label><br>
+        <select id="gender" name="gender" required>
+            <option value="male">ч</option>
+            <option value="female">ж</option>
+            <option value="other">інше</option>
+        </select><br><br>
+
+        <label for="dob">Дата народження:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Телефон:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="bgcolor">Бажаний колір фону:</label><br>
+        <input type="color" id="bgcolor" name="bgcolor"><br><br>
+
+        <label for="country">Країна:</label><br>
+        <input type="text" id="country" name="country" required><br><br>
+
+        <label for="city">Місто:</label><br>
+        <input type="text" id="city" name="city" required><br><br>
+
+        
+
+        <label for="comment">Коментар:</label><br>
+        <textarea id="comment" name="comment"></textarea><br><br>
+
+        <button type="submit">Створити</button>
+    </form>
+</body>
+</html>
